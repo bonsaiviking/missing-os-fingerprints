@@ -24,3 +24,16 @@ The CSV files in this repository are sorted and split according to IP. If you
 know which IP ranges you can help with, view the appropriate CSV file and use
 Github's CSV filtering interface to find them. The files also have reverse-DNS
 names where available, so you can search by domain name, too.
+
+I don't own any of these IPs. Can I still help?
+-----------------------------------------------
+
+You bet! In order to stay on top of the hordes of new operating systems and
+application versions that are released every day, Nmap needs the community to
+scan and submit [OS
+fingerprints](http://nmap.org/book/osdetect-unidentified.html) and [service
+fingerprints](http://nmap.org/book/vscan-community.html).  Before you do, be
+sure to [update to the latest version of Nmap](http://nmap.org/download/); this
+will ensure that you don't submit something Nmap already knows about. Plus, you
+will improve your view of your own network, and take advantage of new features,
+fingerprints, and optimizations.
